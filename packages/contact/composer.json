@@ -1,0 +1,21 @@
+{
+    "name": "robinncode/contact",
+    "description": "This is a test package",
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MsM Robin",
+            "email": "msmrobin518@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2.5|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "robinNcode\\Contact\\": "src/"
+        }
+    }
+}
